@@ -12,9 +12,9 @@ import NotFound from '../components/NotFound.vue'
 
 const routers = [
     {
-    path:'/',
-    name:'Home',
-    component:Home
+        path:'/',
+        name:'Home',
+        component:Home
     },
     {
         path:'/detail/:id',

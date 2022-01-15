@@ -8,7 +8,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
     import Header from '../components/Header.vue'
     import NewsList from '../components/NewsList.vue'
     import {reactive,computed,toRefs,onMounted} from 'vue'
