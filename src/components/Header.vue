@@ -36,7 +36,7 @@
                     talk:{'id':2,'name':'说说','url':'/talk'},
                     guestbook:{'id':3,'name':'留言板','url':'/guestbook'},
                     archive:{'id':4,'name':'归档','url':'/archive'},
-                    about:{'id':5,'name':'关于我',url:'/about'}
+                    about:{'id':5,'name':'关于我','url':'/about'}
                 },
                hitokoto:'' ,
                version:''
