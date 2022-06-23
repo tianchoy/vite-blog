@@ -3,7 +3,7 @@
         <el-container>
             <el-header style="padding:0"><Header/></el-header>
             <el-main><NewsList :newsData="newsData" /></el-main>
-            
+            <el-footer ><Footer /></el-footer>
         </el-container>
     </div>
 </template>
@@ -11,13 +11,15 @@
 <script lang="ts">
     import Header from '../components/Header.vue'
     import NewsList from '../components/NewsList.vue'
+    import Footer from '../components/Footer.vue'
     import {reactive,computed,toRefs,onMounted} from 'vue'
     import {getNewsList} from '../api/index'
     import utils from '../utils'
     export default {
         components:{
             Header,
-            NewsList
+            NewsList,
+            Footer
         },
         setup(){
 
