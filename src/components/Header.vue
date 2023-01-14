@@ -16,7 +16,7 @@
             <p class="hitokoto_content">{{hitokoto}}</p>
         </div>
         <div class="copyright">
-            <p>©2021 All Rights Reserved. V{{version}}</p>
+            <p>©2023 All Rights Reserved. V{{version}}</p>
             <p>沪ICP备19014130号-1</p>
         </div>
     </el-drawer>
